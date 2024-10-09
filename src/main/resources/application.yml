@@ -20,4 +20,13 @@ spring:
         format_sql: true
     database: mysql
     database-platform: org.hibernate.dialect.MySQLDialect
-
+app:
+  GESTOPAGO_SERVER: https://gestopago.portalventas.net
+  GESTOPAGO_CONTEXT: /sistema/service
+  GESTOPAGO_AUTH_ENDPOINT: /sistema/app/jwt-gp/authenticate/
+  X_API_KEY: YSX1HpAFum4TpCecyFBxs4eIjAlbhKqK6fpcSQp8
+  GESTOPAGO_ID_DISTRIBUTOR: 83
+  GESTOPAGO_CODE_DISPOSITIVE: GPS83-TPV-17
+  GESTOPAGO_PASSWORD: 12345678
+  AES_SECRET_KEY: HPo7OLqB4Fkk4E2yGOtwqw8H5fHR9kNx67OR4g4UdlA=
+  AES_SECRET_IV: p5ldmBPdd/9pjC0bDC/nSg==
